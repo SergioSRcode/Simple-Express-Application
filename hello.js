@@ -22,6 +22,10 @@ app.get("/serbian", (req, res) => {
   res.render("hello-world-serbian");
 });
 
+app.get("/german", (req, res) => {
+  res.render("hello-world-german");
+});
+
 app.listen(3000, "localhost", () => {
   console.log("Listening to port 3000...");
 });

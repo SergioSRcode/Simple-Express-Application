@@ -2,15 +2,14 @@ doctype html
 
 html
   head
-    title Ово је наслов странице
+    title Das ist die Startseite
     meta(charset="UTF-8")
     link(rel="stylesheet" href="/stylesheets/application.css")
-
   body
     nav
       ul
         li
-          a(href="/english")
+          a.current(href="/english")
             img.flag(src="/images/flag-of-United-States-of-America.png"
                      alt="US Flag"
                      title="Go to US English site")
@@ -20,17 +19,17 @@ html
                      alt="Drapeau de la france"
                      title="Aller sur le site français")
         li
-          a.current(href="/serbian")
+          a(href="/serbian")
             img.flag(src="/images/flag-of-Serbia.png"
                      alt="Застава Србије"
                      title="Идите на српски сајт")
         li
-          a(href="german")
+          a.current(href="german")
             img.flag(src="/images/flag-of-Germany.png"
                      alt="Deutschland Flagge"
-                     title="Zur deutschen Seite") 
+                     title="Zur deutschen Seite")             
     header
-      h1 Здраво свете!
+      h1 Hallo Welt!
     main
-      p Ускоро ћу бити софтверски инжењер!
-      img(src="/images/earth.jpg" alt="Планета Земља" title="Планета Земља")
+      p Ich werde bald ein Software Entwickler sein!
+      img(src="/images/earth.jpg" alt="The Earth" title="The Earth")
